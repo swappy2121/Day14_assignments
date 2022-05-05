@@ -13,17 +13,17 @@ public class LinkedList2 {
     }
     private void show() {
         Node newNode1 = new Node();
-        newNode1.data(70);
+        newNode1.data(56);
 
         Node newNode2 = new Node();
         newNode2.data(30);
         newNode1.next = newNode2;
 
         Node newNode3 = new Node();
-        newNode3.data(56);
+        newNode3.data(70);
         newNode2.next = newNode3;
 
-        System.out.println(newNode3.data + "-->" + newNode2.data + "-->" + newNode1.data);
+        System.out.println(newNode1.data + "-->" + newNode2.data + "-->" + newNode3.data);
 
 
     }
